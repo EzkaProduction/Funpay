@@ -103,7 +103,7 @@ async function loadSettings() {
                 newOrderNotification: answers.newOrderNotification,
                 lotsRaiseNotification: answers.lotsRaiseNotification,
                 deliveryNotification: answers.deliveryNotification,
-                watermark: "[ 🔥NightBot ]",
+                watermark: "[ 💠ᴨᴩиʙᴇᴛ оᴛ ʜʏᴅʀᴀᴜʟɪ 💠 ]",
                 proxy: {
                     useProxy: 0,
                     host: "",
@@ -344,7 +344,10 @@ async function askSettings() {
             lotsRaiseNotification: 1,
             deliveryNotification: 1,
             greetingMessage: 1,
-            greetingMessageText: 'Привет! Продавец скоро ответит на твоё сообщение.'
+            greetingMessageText: '
+я ᴄᴋоᴩо оᴛʙᴇчу нᴀ ᴛʙоё ᴄообщᴇниᴇ.
+
+ᴨᴩибᴧизиᴛᴇᴧьноᴇ ʙᴩᴇʍя оᴛʙᴇᴛᴀ 5-10 ʍинуᴛ. (быʙᴀюᴛ иᴄᴋᴧючᴇния)'
         }
     }
 
@@ -459,7 +462,10 @@ async function askSettings() {
         lotsRaiseNotification: (question5.lotsRaiseNotification == 'Да') ? 1 : 0,
         deliveryNotification: (question5.deliveryNotification == 'Да') ? 1 : 0,
         greetingMessage: (answers.greetingMessage == 'Да') ? 1 : 0,
-        greetingMessageText: 'Привет, {name}!\nПродавец скоро ответит на твоё сообщение.'
+        greetingMessageText: '
+я ᴄᴋоᴩо оᴛʙᴇчу нᴀ ᴛʙоё ᴄообщᴇниᴇ.
+
+ᴨᴩибᴧизиᴛᴇᴧьноᴇ ʙᴩᴇʍя оᴛʙᴇᴛᴀ 5-10 ʍинуᴛ. (быʙᴀюᴛ иᴄᴋᴧючᴇния)'
     }
 
     console.log();
